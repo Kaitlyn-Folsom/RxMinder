@@ -1,12 +1,9 @@
 .patientProfile{
-background-image: 
-
-url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/16/92561d2b54b9939.jpg");
+background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/16/92561d2b54b9939.jpg");
 	background-repeat: no-repeat;
 	background-position: center-top;
 	background-size: 100% 150%;
-	
-
+	border-bottom:5px inset #ccc;
 }
 
 .profileText{
