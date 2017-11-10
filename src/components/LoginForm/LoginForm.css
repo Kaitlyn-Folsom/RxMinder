@@ -1,0 +1,21 @@
+.loginCol{
+	background-image: url("https://www.planochildrensmedicalclinic.org/wp-content/uploads/2016/09/backgroundNEW.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width:100%;
+	height:95vh;
+	
+}
+
+.LoginForm{
+	margin-top:200px;
+}
+
+.signupRoute{
+	margin-top:10px;
+}
+
+.loginLabel{
+	font-size:20px;
+}
+

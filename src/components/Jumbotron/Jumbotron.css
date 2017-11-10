@@ -1,0 +1,26 @@
+h1 {
+  font-weight: 600;
+  font-variant: small-caps;
+}
+#text {
+  font-variant: small-caps;
+  color:#337ab7;
+  font-size:25px;
+}
+.leftimage {
+  height: 60px;
+  width: 60px;
+  position:relative;
+  right:50px;
+  bottom:20px;
+}
+  
+.righttext{
+    position:relative;
+    display:inline-block;
+    poistion:;
+}
+.Jumbotron {
+    padding-top:80px;
+    background-color:#fff7ea;
+}
