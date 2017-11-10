@@ -23,6 +23,23 @@ const User = require('./db/models/User')
 const Patient = require('./db/models/Patients')
 const Reminder = require('./db/models/Reminders')
 
+// // const mongoose = require('mongoose')
+// mongoose.Promise = global.Promise
+
+// var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/pills'
+
+// // should mongoose.connection be put in the call back of mongoose.connect???
+// mongoose.connect("mongodb://heroku_8rwhgj3v:dgmcu1p05ienb8c71ngmql62kb@ds151955.mlab.com:51955/heroku_8rwhgj3v");
+// const db = mongoose.connection
+// db.on('error', err => {
+// 	console.log(`There was an error connecting to the database: ${err}`)
+// })
+// db.once('open', () => {
+// 	console.log(
+// 		`You have successfully connected to your mongo database: ${MONGO_URL}`
+// 	)
+// })
+
 
 //================ MIDDLEWARE ================= //
 app.use(logger('dev'))
@@ -40,6 +57,8 @@ app.use(
 		saveUninitialized: false
 	})
 )
+
+// app.use(express.static("build"));
 
 //================ PASSPORT ================= //
 app.use(passport.initialize())
@@ -186,7 +205,7 @@ app.get("*", function(req, res) {
   res.sendFile(__dirname + "/build/static/index.html");
 });
 
-app.use(express.static("build"));
+
 
 
 // Start the server

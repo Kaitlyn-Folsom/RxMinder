@@ -14,7 +14,7 @@ if (process.env.MONGODB_URI) {
 	MONGO_URL = MONGO_LOCAL_URL
 }
 
-var MONDODG_URI = process.env.MONGODB_URI || 'mongodb://localhost/pills'
+var MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost/pills'
 
 // should mongoose.connection be put in the call back of mongoose.connect???
 mongoose.connect("mongodb://heroku_8rwhgj3v:dgmcu1p05ienb8c71ngmql62kb@ds151955.mlab.com:51955/heroku_8rwhgj3v");
