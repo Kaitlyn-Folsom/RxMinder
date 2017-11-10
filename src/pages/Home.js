@@ -28,7 +28,6 @@ const Home = props => {
 						</Col>
 					</Row>
 					<DisplayReminders user = {user}/>
-					<Footer />
 				</div>
 
 		)
