@@ -202,9 +202,14 @@ app.post('/sms', (req, res) => {
 
 // // Main "/" Route. This will redirect the user to our rendered React application
 app.get("*", function(req, res) {
-  const index = path.join(__dirname, "build", "index.html");
-  res.sendFile(index);
+  res.sendFile(__dirname + "/build/static/index.html");
 });
+
+// app.get("*", function(req, res) {
+//   const index = path.join(__dirname, 'build', 'index.html');
+//   res.sendFile(index);
+// });
+
 
 
 
