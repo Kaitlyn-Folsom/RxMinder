@@ -186,6 +186,8 @@ app.get("*", function(req, res) {
   res.sendFile(__dirname + "/build/static/index.html");
 });
 
+app.use(express.static("build"));
+
 
 // Start the server
 app.listen(PORT, function() {
