@@ -201,7 +201,6 @@ app.post('/sms', (req, res) => {
 //==================================Routes=========================================
 
 // // Main "/" Route. This will redirect the user to our rendered React application
-const path = require("path");
 app.use("/static", express.static(path.join(__dirname, "./build/static")));
 
 app.get("/", function(req, res) {
