@@ -2,8 +2,8 @@ const express = require('express')
 const router = express.Router()
 const User = require('../../db/models/User')
 const passport = require('passport')
-const Patient = require('../../db/models/patients')
-const Reminder = require('../../db/models/reminders')
+const Patient = require('../../db/models/Patients')
+const Reminder = require('../../db/models/Reminders')
 const moment = require('moment');
 
 //==================================Twilio=========================================
