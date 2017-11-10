@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const User = require('../../db/models/user')
+const User = require('../../db/models/User')
 const passport = require('passport')
 const Patient = require('../../db/models/patients')
 const Reminder = require('../../db/models/reminders')
