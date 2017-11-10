@@ -201,8 +201,10 @@ app.post('/sms', (req, res) => {
 //==================================Routes=========================================
 
 // // Main "/" Route. This will redirect the user to our rendered React application
-app.get("*", function(req, res) {
-  res.sendFile(__dirname + "/build/static/index.html");
+app.use("/static", exzpress.static(__dirname + "/build/static"));
+
+app.get("/", function(req, res) {
+  res.sendFile(__dirname + "/build/index.html");
 });
 
 // app.get("*", function(req, res) {
