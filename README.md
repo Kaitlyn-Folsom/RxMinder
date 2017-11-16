@@ -22,6 +22,8 @@ A text is sent to the patient at the time each medication should be taken. The p
 
 ![screenshot3](/src/assets/IMG_7690.TRIM.MOV)
 
+[![Text Vid](/src/assets/IMG_7690.TRIM.MOV)](/src/assets/IMG_7690.TRIM.MOV)
+
 After the patient confirms the medication was taken that reminder will turn blue.
 
 ![screenshot2](/src/assets/RespondingToReminder.gif)
