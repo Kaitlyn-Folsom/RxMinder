@@ -20,7 +20,7 @@
 
 ##### A text is sent to the patient at the time each medication should be taken. The patient must then respond to the text alert to confirm the medication was taken
 
-![Text Demo](/src/assets/textDemo.png)
+![Text Demo](/src/assets/textDemo.gif)
 
 #### After the patient confirms the medication was taken that reminder will turn blue.
 
