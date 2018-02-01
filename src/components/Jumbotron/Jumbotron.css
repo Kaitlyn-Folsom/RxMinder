@@ -15,12 +15,16 @@ h1 {
   bottom:20px;
 }
   
-.righttext{
+.title{
     position:relative;
+    right:15%;
     display:inline-block;
-    poistion:;
 }
 .Jumbotron {
     padding-top:80px;
-    background-color:#fff7ea;
+    height:500px;
+    background-image: url("https://patientengagementhit.com/images/site/article_headers/_large/2017-healthcare-stock.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
