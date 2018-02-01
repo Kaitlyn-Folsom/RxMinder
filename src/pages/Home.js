@@ -47,7 +47,6 @@ const Home = props => {
 		return (
 				<div className="Homediv">
 					<Jumbotrons/>		
-					{/* <Carousel /> */}
 					<GridHome />
 					<Footer />
 

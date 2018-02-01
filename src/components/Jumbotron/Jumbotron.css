@@ -2,29 +2,25 @@ h1 {
   font-weight: 600;
   font-variant: small-caps;
 }
+
 #text {
   font-variant: small-caps;
   color:#337ab7;
   font-size:25px;
 }
-.leftimage {
-  height: 60px;
-  width: 60px;
-  position:relative;
-  right:50px;
-  bottom:20px;
-}
   
 .title{
-    position:relative;
-    right:15%;
-    display:inline-block;
+  position:relative;
+  right:15%;
+  bottom:10%;
+  display:inline-block;
 }
+
 .Jumbotron {
-    padding-top:80px;
-    height:500px;
-    background-image: url("https://patientengagementhit.com/images/site/article_headers/_large/2017-healthcare-stock.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  padding-top:80px;
+  height:450px;
+  background-image: url("https://patientengagementhit.com/images/site/article_headers/_large/2017-healthcare-stock.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

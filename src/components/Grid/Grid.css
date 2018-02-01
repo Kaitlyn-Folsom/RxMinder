@@ -1,17 +1,22 @@
 .grid{
-	margin: 10px auto 90px auto;
+	/* margin: 10px auto 90px auto; */
+	margin: 0px auto 0px auto;
 }
 
 .column{
 	padding:0px 40px 0px 40px;
 }
 
-.gridContainer{
-	margin:0;
-}
 h2{
-	height:100px;
+	height:80px;
+	font-size:140%;
+	margin-top:50px;
 }
+
+h4 {
+	padding: 15px 0 0 0;
+}
+
 .rowGrid{
 	width: 100vw
 }

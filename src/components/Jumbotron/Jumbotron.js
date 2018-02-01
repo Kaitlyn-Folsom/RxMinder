@@ -11,7 +11,6 @@ class Jumbotrons extends React.Component {
     return (
     <Jumbotron className="Jumbotron">
       <h1 className="title">RxMinder</h1>
-        {/* <p id="text">Welcome to RxMinder! Designed to give you peace of mind while your loved one still maintains their independence. </p> */}
   </Jumbotron>
 		);
 	}

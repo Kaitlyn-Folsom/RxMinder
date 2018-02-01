@@ -86,8 +86,7 @@ class LoginForm extends Component {
 					<div className="LoginForm">
 						<Form horizontal className="form">
 							<h1>Login</h1>
-						  <FormGroup controlId="formHorzontalEmail"
-      				>
+						  <FormGroup controlId="formHorzontalEmail">
 								<Col className="loginLabel" componentClass={ControlLabel} sm={4}>Email:
 	      				</Col>
 	      				<Col sm={4}>

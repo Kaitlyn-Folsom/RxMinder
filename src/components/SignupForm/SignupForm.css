@@ -1,11 +1,8 @@
 .SignupForm{
-	background-image: url("https://www.planochildrensmedicalclinic.org/wp-content/uploads/2016/09/backgroundNEW.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size:cover;
-	width:100%;
+	background-color: #2d4157;
+	color:#fff;	
 	height:100vh;
-	margin-top:130px;
+	padding-top:100px;
 }
 
 .weller {
@@ -17,4 +14,3 @@
 .signupLabel{
 	font-size:20px;
 }
-

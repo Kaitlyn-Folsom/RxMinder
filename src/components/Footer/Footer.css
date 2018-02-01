@@ -1,9 +1,11 @@
 .footer {
   height: 60px;
-  background: #336E7B;
+  background: #2d4157;
+  margin-top: 50px;
 }
+
 .footerText{
     padding-top:20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+    font-size: 80%;
 }

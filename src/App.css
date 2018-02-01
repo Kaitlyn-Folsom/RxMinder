@@ -2,6 +2,7 @@
 	margin-top:50px;
 	text-align:center;
 	font-family: sofia;
+	font-size:20px;
 }
 
 .navbar{
@@ -9,11 +10,16 @@
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-brand {
-	font-size: 30px;
-	font-family: sofia;
+.brand {
+	font-size: 150%;
+	color: #2d4157;
 }
 
-.glyphicon {
-	font-size:18px;
+.navBtns a {
+	color:#2d4157;
+	text-decoration:none;
+}
+
+.navBtns a:hover {
+	color:rgb(109, 151, 149);
 }

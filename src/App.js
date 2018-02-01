@@ -15,24 +15,21 @@ const DisplayLinks = props => {
 			<Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
 					   <Navbar.Header>
 					    <Navbar.Brand>
-					      <a href="">RxMinder</a>
+					      <a href="/" className="brand">RxMinder</a>
 					    </Navbar.Brand>
 					      <Navbar.Toggle />
 					    </Navbar.Header>
 					    <Navbar.Collapse>
-					      <Nav pullRight>
+					      <Nav  pullRight className="navBtns">
 					        <NavItem eventKey={1}><Link to="/">
-					          <a><span className="glyphicon glyphicon-home">  Home</span></a></Link>
+					          <a>Home</a></Link>
 					         </NavItem>
-
 					        <NavItem eventKey={2}><Link to="#" onClick={props._logout}>
-					          <a><span className="glyphicon glyphicon-share-alt"> Logout</span></a>
+					          <a>Logout</a>
 					         </Link>
 					         </NavItem>
-
-
 					         <NavItem eventKey={3}><Link to="/patient">
-					          <a><span className="glyphicon glyphicon-user">  Patient-Profile</span></a></Link>
+					          <a>Patient Profile</a></Link>
 					         </NavItem> 
 					      </Nav>
 					    </Navbar.Collapse>
@@ -43,20 +40,20 @@ const DisplayLinks = props => {
           <Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
 					   <Navbar.Header>
 					    <Navbar.Brand>
-					      <a href="">RxMinder</a>
+					      <a href="/" className="brand">RxMinder</a>
 					    </Navbar.Brand>
 					      <Navbar.Toggle />
 					    </Navbar.Header>
 					    <Navbar.Collapse>
 					      <Nav pullRight className="navBtns">
 					        <NavItem eventKey={1}><Link to="/">
-					          <a><span className="glyphicon glyphicon-home">  Home</span></a></Link>
+					          <a>Home</a></Link>
 					         </NavItem>
 					        <NavItem eventKey={2}><Link to="/login">
-					          <a><span className="glyphicon glyphicon-log-in">  Login</span></a></Link>
+					          <a>Login</a></Link>
 					         </NavItem>
 					         <NavItem eventKey={3}><Link to="/signup">
-					          <a><span className="glyphicon glyphicon-user">  Signup</span></a></Link>
+					          <a>Signup</a></Link>
 					         </NavItem> 
 					      </Nav>
 					    </Navbar.Collapse>
