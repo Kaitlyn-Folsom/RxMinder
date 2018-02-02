@@ -16,8 +16,8 @@ const Home = props => {
 	if (props.user && props.user.patients.length > 0) {
 		return (
 
-				<div className="Home">
-					<Row>
+				<div className="Home reminders-page">
+					<Row className="reminders-page">
 						<Col lg={5}>
 							<Header user={user} />
 						</Col>
@@ -37,8 +37,7 @@ const Home = props => {
 		return (
 				<div className="Home">
 							{console.log(props.user)}
-					<PatientForm />
-					<Footer />
+					<PatientForm />					
 				</div>
 		)
 	} 

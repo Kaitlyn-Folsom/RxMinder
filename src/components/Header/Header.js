@@ -3,7 +3,7 @@ import {Jumbotron, Row, Col} from "react-bootstrap";
 import "./Header.css"
 
 const Header = props => {
-	let Greeting
+	let Greeting;
 	if (props.user === null) {
 	} else if (props.user.firstName) {
 		Greeting = (

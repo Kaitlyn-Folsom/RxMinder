@@ -73,7 +73,7 @@ constructor() {
 
   render() {
     return (
-      <Row>
+      <Row className="reminders-page">
         <Col lg={1}>
         </Col>
         <Col lg={10} className="todaysReminders">
@@ -98,7 +98,7 @@ constructor() {
                           </Col>
                           <Col sm={4}> 
                             <h3>Refill Date:</h3>
-                            <h4>{reminder.medicationRefillDate}</h4>
+                            <h4 className="info">{reminder.medicationRefillDate}</h4>
                           </Col>
                           <Col sm={4}>
                             <h3>Message:</h3>

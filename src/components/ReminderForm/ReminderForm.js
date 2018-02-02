@@ -338,6 +338,7 @@ constructor() {
               <ControlLabel className="panelLabel">Day(s) in which medication must be taken:</ControlLabel>
                 <br />
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Sunday"
                   onChange={this.handleInputChange}
@@ -345,6 +346,7 @@ constructor() {
                   Sunday
                 </Checkbox>
                 <Checkbox inline 
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Monday"
                   onChange={this.handleInputChange}
@@ -352,6 +354,7 @@ constructor() {
                   Monday
                 </Checkbox>
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Tuesday"
                   onChange={this.handleInputChange}
@@ -359,6 +362,7 @@ constructor() {
                   Tuesday
                 </Checkbox>
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Wednesday"
                   onChange={this.handleInputChange}
@@ -366,6 +370,7 @@ constructor() {
                   Wednesday
                 </Checkbox>
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Thursday"
                   onChange={this.handleInputChange}
@@ -373,6 +378,7 @@ constructor() {
                   Thursday
                 </Checkbox>
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Friday"
                   onChange={this.handleInputChange}
@@ -380,6 +386,7 @@ constructor() {
                   Friday
                 </Checkbox>
                 <Checkbox inline
+                  className="panelLabel"
                   name="dayToComplete"
                   value="Saturday"
                   onChange={this.handleInputChange}
@@ -455,7 +462,7 @@ constructor() {
                     onChange={this.handleInputChange}
                     placeholder="(if a med reminder)"
                   />
-                <ControlLabel className="dateLabel">Refill Date:</ControlLabel>
+                <ControlLabel className="panelLabel dateLabel">Refill Date:</ControlLabel>
                   <FormControl
                     className="Input"
                     name="medicationRefillDate"

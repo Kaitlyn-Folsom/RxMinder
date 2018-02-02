@@ -1,8 +1,15 @@
 .addPatientForm{
-	margin-top:100px;
-
+	padding-top:100px;
 }
 
-.addPatientBtn{
+.add-patient-page {
+	background-color: #2d4157;
+	color:#fff;
+	margin: 0;
+	width:100%;
+	height: 100%;
+}
 
+.form-title {
+	font-size:200%;
 }

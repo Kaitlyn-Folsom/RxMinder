@@ -14,17 +14,28 @@
 	border:0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: rgb(95, 104, 119); 
-
-		color:white;
-
-
+	background-color: #eee;
+	color:#000;
 }
 
 .redBG {
-  background-color: rgb(201, 84, 78);
+  background-color: rgb(240, 114, 114);
 
 }
 
 .greenBG {
-		background-color: rgb(76, 126, 206); 
+	background-color: rgb(107, 218, 151); 
+}
+
+.timeToComplete {
+	margin:15px 0 0 10px;
+	font-size:180%;
+}
+
+.toDo {
+	font-size:200%;
+}
+
+.info {
+	font-size:120%;
 }

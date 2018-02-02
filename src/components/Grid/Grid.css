@@ -24,3 +24,7 @@ h4 {
 .grid{
 	margin: 0px;
 }
+
+.grid-info {
+	font-size:110%;
+}

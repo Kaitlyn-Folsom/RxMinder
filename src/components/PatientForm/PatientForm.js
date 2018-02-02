@@ -166,9 +166,9 @@ constructor() {
       return <Redirect to={{ pathname: this.state.redirectTo }} />
     }
     return (
-        <div className ='container'>
+        <div className ='add-patient-page'>
               <Form horizontal className="addPatientForm">
-                <h2>Add a patient to get started</h2>
+                <h2 className="form-title">Add a patient to get started</h2>
                     <FormGroup>
                       <Col componentClass={ControlLabel} sm={3}>Name: </Col>
                       <Col sm={6}>

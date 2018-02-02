@@ -23,14 +23,14 @@ const DisplayLinks = props => {
 					      <Nav  pullRight className="navBtns">
 					        <NavItem eventKey={1}><Link to="/">
 					          <a>Home</a></Link>
-					         </NavItem>
-					        <NavItem eventKey={2}><Link to="#" onClick={props._logout}>
-					          <a>Logout</a>
-					         </Link>
-					         </NavItem>
+					         </NavItem>					        
 					         <NavItem eventKey={3}><Link to="/patient">
 					          <a>Patient Profile</a></Link>
 					         </NavItem> 
+									 <NavItem eventKey={2}><Link to="#" onClick={props._logout}>
+					          <a>Logout</a>
+					         </Link>
+					         </NavItem>
 					      </Nav>
 					    </Navbar.Collapse>
 					</Navbar>

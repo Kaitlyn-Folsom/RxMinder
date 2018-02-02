@@ -1,5 +1,4 @@
 
-
 .medicationForm{
 	text-align:left;
 	padding:0 5px;
@@ -13,30 +12,22 @@
 	text-align:center;
 }
 
-
-
 .addMedsPanel{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-/*	background-color: rgb(76, 126, 206); */
-background-color:#3c7ba7;
+	background-color:#2d4157;
     border:0;
     color:white;
-
-    border-radius:10px;
+	border-radius:10px;
 }
 
 .wellDay{
-/*	background-color: rgb(76, 126, 206);*/ 
-background-color:#3c7ba7;
+	background-color:#2d4157;
 	color: #fff;
-	border-radius: 10px;
-	font-size:15px;
+	border-radius:10px 10px 0 0;
 	margin-bottom:0;
-	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .remindersText{
-text-align:left;
+	text-align:left;
 }
 
 .Input{
@@ -72,17 +63,13 @@ text-align:left;
 	text-align: left;
 	padding: 10px 0 10px 20px;
 	position: relative;
-/*	background-color: #b3c3dd;*/
-background-color:#cde6f5;
-	border-radius:10px;
-	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+	background-color:#eee;
+	border-radius:0px 0px 10px 10px;
 }
 
 
 .reminderTitle {
 	font-weight: bold;
-	text-transform: uppercase;
 	line-height: 1.5;
 	padding-right: 15px;
 }
@@ -94,7 +81,7 @@ background-color:#cde6f5;
 
 .currentReminders{
 	margin-bottom:20px;
-	font-size:40px;
+	font-size:200%;
 }
 
 .panelLabel{
@@ -103,7 +90,5 @@ background-color:#cde6f5;
 }
 
 .addReminderBtn{
-background-color:#cde6f5;
 	float:right;
 }
-

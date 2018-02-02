@@ -7,12 +7,12 @@
 
 .navbar{
 	margin: 0;
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .brand {
 	font-size: 150%;
-	color: #2d4157;
+	color: #2d4157 !important;
 }
 
 .navBtns a {
