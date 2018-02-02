@@ -28,4 +28,4 @@
 
 ##### When the patient has not responded to the text alert the reminder turns red to show this medication has been missed. The caretaker can then check in on the patient.
 
-![screenshot1](/src/assets/MissingReminder.gif)
+![screenshot1](/src/assets/MissingReminder.png)
