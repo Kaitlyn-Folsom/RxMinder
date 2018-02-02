@@ -10,7 +10,7 @@ class GridHome extends React.Component {
       <Row className="row rowGrid">
         <Col className="column" xs={6} md={3}>
           <h2>Dynamic Medication Scheduling</h2>
-          <Image height="200" width="200" alt="drug icon" src={require("../../assets/medicine.png")} rounded />
+          <Image classNAme="home-image" height="200" width="200" alt="drug icon" src={require("../../assets/medicine.png")} rounded />
           <h4 className="grid-info"> Create your own personalized medication schedule</h4>
         </Col>
         <Col className="column" xs={6} md={3}>

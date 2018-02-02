@@ -28,3 +28,7 @@ h4 {
 .grid-info {
 	font-size:110%;
 }
+
+.home-image:hover {
+	opacity:0;
+}
