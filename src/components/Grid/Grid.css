@@ -1,24 +1,19 @@
 .grid{
-	/* margin: 10px auto 90px auto; */
-	margin: 0px auto 0px auto;
+	margin: 0px auto;
 }
 
 .column{
-	padding:0px 40px 0px 40px;
+	padding:0px 30px 0px 30px;
 }
 
 h2{
 	height:80px;
-	font-size:140%;
-	margin-top:50px;
-}
-
-h4 {
-	padding: 15px 0 0 0;
+	font-size:120%;
+	margin-top:60px;
 }
 
 .rowGrid{
-	width: 100vw
+	width: 100vw;	
 }
 
 .grid{
@@ -27,8 +22,118 @@ h4 {
 
 .grid-info {
 	font-size:110%;
+	padding: 50px 10px;
+	color:#2d4157;
 }
 
-.home-image:hover {
-	opacity:0;
+.flip-container {
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	-o-perspective: 1000;
+	perspective: 1000;
+	margin: auto;
+  }
+  
+.flip-container:hover .flipper,  
+.flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+  
+.flip-container, .front, .back {
+	width: 200px;
+	height: 200px;
+}
+  
+.flipper {
+	-webkit-transition: 0.7s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.7s;
+	-moz-transform-style: preserve-3d;
+
+	-o-transition: 0.7s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.7s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+  
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+}
+  
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+#pill-icon {
+	background: url(../../assets/drug-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+}
+
+#ear-icon {
+	background: url(../../assets/ear-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+}
+
+#survey-icon {
+	background: url(../../assets/survey-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+}
+
+#heart-icon {
+	background: url(../../assets/heart-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: 2;
+}
+
+#pill-icon-fade {
+	background-image: url(../../assets/drug-icon-fade.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#ear-icon-fade {
+	background-image: url(../../assets/ear-icon-fade.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#survey-icon-fade {
+	background-image: url(../../assets/survey-icon-fade.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#heart-icon-fade {
+	background-image: url(../../assets/heart-icon-fade.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }

@@ -2,7 +2,7 @@
 
 ## A React-based web application that keeps track of a person's medication through texting alerts.
 
-##### Do you have an older family member who is sometimes forgetfull of their medication? Do they get defensive everytime you have to remind them to take their medication? Do they still hold on to their independence?
+##### Do you have a family member who is sometimes forgetfull of their medication? Do they get defensive everytime you have to remind them to take their medication? Do they still hold on to their independence?
 
 ##### Then RxMinder is just what you need. It allows you to keep track of if and when your family member has taken their medication each day while they maintain their independence.
 
@@ -29,8 +29,3 @@
 ##### When the patient has not responded to the text alert the reminder turns red to show this medication has been missed. The caretaker can then check in on the patient.
 
 ![screenshot1](/src/assets/MissingReminder.gif)
-
-
-
-
-

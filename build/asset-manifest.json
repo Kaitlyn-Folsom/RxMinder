@@ -1,10 +1,14 @@
 {
-  "main.css": "static/css/main.c269dd51.css",
-  "main.css.map": "static/css/main.c269dd51.css.map",
-  "main.js": "static/js/main.e08efa97.js",
-  "main.js.map": "static/js/main.e08efa97.js.map",
-  "static/media/ear-icon.png": "static/media/ear-icon.11b27b06.png",
-  "static/media/heart-icon.png": "static/media/heart-icon.e1a7513b.png",
-  "static/media/medicine.png": "static/media/medicine.37687772.png",
-  "static/media/stethoscope-icon.png": "static/media/stethoscope-icon.5ad613fa.png"
+  "main.css": "static/css/main.ee39449f.css",
+  "main.css.map": "static/css/main.ee39449f.css.map",
+  "main.js": "static/js/main.7f3c3ce3.js",
+  "main.js.map": "static/js/main.7f3c3ce3.js.map",
+  "static/media/drug-icon-fade.png": "static/media/drug-icon-fade.ae4338bd.png",
+  "static/media/drug-icon.png": "static/media/drug-icon.527c0fb4.png",
+  "static/media/ear-icon-fade.png": "static/media/ear-icon-fade.5c09ce9c.png",
+  "static/media/ear-icon.png": "static/media/ear-icon.7d6e92bc.png",
+  "static/media/heart-icon-fade.png": "static/media/heart-icon-fade.e328512a.png",
+  "static/media/heart-icon.png": "static/media/heart-icon.cc71d160.png",
+  "static/media/survey-icon-fade.png": "static/media/survey-icon-fade.de3714ee.png",
+  "static/media/survey-icon.png": "static/media/survey-icon.323a06ed.png"
 }
