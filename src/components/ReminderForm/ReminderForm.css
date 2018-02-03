@@ -67,7 +67,6 @@
 	border-radius:0px 0px 10px 10px;
 }
 
-
 .reminderTitle {
 	font-weight: bold;
 	line-height: 1.5;
@@ -75,7 +74,7 @@
 }
 
 .panelTitle{
-	font-size:40px;
+	font-size:175%;
 	padding-bottom:10px;
 }
 
@@ -91,4 +90,25 @@
 
 .addReminderBtn{
 	float:right;
+}
+
+@media only screen and (max-width:480px) {
+	.Input{
+		margin-left:0px;
+	}
+
+	.dropdownFields{
+		margin: 0;
+	}
+
+	.dateLabel{
+		margin-left:0px;
+	}
+
+	.reminders {
+		padding: 0;
+	}
+
+
+	
 }

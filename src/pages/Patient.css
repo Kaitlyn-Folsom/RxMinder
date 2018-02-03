@@ -1,9 +1,14 @@
 .patientContainer{
 	width:100%;
 	background-color:#fff;
-
 }
 
 .reminderBody{
 	margin:0 30px;
+}
+
+@media only screen and (max-width:480px) {
+	.reminderBody{
+		margin:0 auto;
+	}
 }

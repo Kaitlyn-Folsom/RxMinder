@@ -10,3 +10,9 @@ background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/03/1
 	text-align:left;
 	margin-left:50px;
 }
+
+@media only screen and (max-width:480px) {
+	.patientProfile{
+		background-size: 140% 130%;
+	}
+}

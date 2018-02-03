@@ -149,7 +149,7 @@ class SignupForm extends Component {
 		if (!this.state.confirmPassword){
 			 this.setState({
 			 	passwordConfirmFlag: true,
-      	password: "",
+      			password: "",
 				redirectTo: "",
 				confirmPassword: ""
 			})
@@ -159,7 +159,7 @@ class SignupForm extends Component {
 
 			this.setState({
 				confirmFlag: true,
-      	password: "",
+      			password: "",
 				redirectTo: "",
 				confirmPassword: ""
 			})
@@ -187,8 +187,8 @@ class SignupForm extends Component {
 					console.log(response.data.error);
 					this.setState({
 						userFlag: true,
-		      	password: "",
-		      	email: "",
+		      			password: "",
+		      			email: "",
 						redirectTo: "",
 						confirmPassword: ""
 					})

@@ -170,8 +170,8 @@ constructor() {
               <Form horizontal className="addPatientForm">
                 <h2 className="form-title">Add a patient to get started</h2>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>Name: </Col>
-                      <Col sm={6}>
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={4} xs={3}>Name: </Col>
+                      <Col sm={4} xs={7}>
                         <FormControl
                           name="patientName"
                           value={this.state.patientName}
@@ -184,8 +184,8 @@ constructor() {
                        </Col> 
                     </FormGroup>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>Phone: </Col>
-                      <Col sm={6}>  
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={3} xs={3}>Phone: </Col>
+                      <Col sm={6} xs={7}>  
                         <FormControl
                           name="patientPhone"
                           value={this.state.patientPhone}
@@ -198,8 +198,8 @@ constructor() {
                       </Col>  
                     </FormGroup>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>Street: </Col>
-                      <Col sm={6}>  
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={3} xs={3}>Street: </Col>
+                      <Col sm={6} xs={7}>  
                         <FormControl
                           name="patientStreet"
                           value={this.state.patientStreet}
@@ -212,8 +212,8 @@ constructor() {
                       </Col>
                     </FormGroup>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>City: </Col>
-                      <Col sm={6}>  
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={3} xs={3}>City: </Col>
+                      <Col sm={6} xs={7}>  
                         <FormControl
                           name="patientCity"
                           value={this.state.patientCity}
@@ -226,8 +226,8 @@ constructor() {
                       </Col>
                     </FormGroup>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>State: </Col>
-                      <Col sm={6}>  
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={3} xs={3}>State: </Col>
+                      <Col sm={6} xs={7}>  
                         <FormControl
                           name="patientState"
                           componentClass="select"
@@ -296,8 +296,8 @@ constructor() {
                       </Col> 
                     </FormGroup>
                     <FormGroup>
-                      <Col componentClass={ControlLabel} sm={3}>Zipcode: </Col>
-                      <Col sm={6}>  
+                      <Col className="patient-form-label" componentClass={ControlLabel} sm={3} xs={3}>Zipcode: </Col>
+                      <Col sm={6} xs={7}>  
                         <FormControl
                           name="patientZip"
                           value={this.state.patientZip}
@@ -313,7 +313,7 @@ constructor() {
                       <Button bsStyle="default"
                         onClick={this.handleFormSubmit}
                         type="success"
-                        className="input-lg addPatientBtn"
+                        className="input-lg add-patient-btn"
                       >
                         Add Patient
                       </Button>
