@@ -137,3 +137,26 @@ h2{
 	background-position: center;
 	background-size: cover;
 }
+
+/* Mobile Style */
+@media only screen and (max-width:480px) {
+	.flip-container, .front, .back {
+		width: 175px;
+		height: 175px;
+	}
+
+	h2{
+		height:60px;
+		font-size:100%;
+		margin-top:40px;
+	}
+
+	.column{
+		padding:0px 20px 0px 20px;
+	}
+
+	.grid-info {
+		font-size:100%;
+		padding: 40px 10px;
+	}
+}

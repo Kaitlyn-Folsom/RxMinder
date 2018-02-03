@@ -2,15 +2,27 @@
 	background-color: #2d4157;
 	color:#fff;	
 	height:100vh;
-	padding-top:100px;
+	padding-top:80px;
 }
 
-.weller {
-	width:50%;
-	margin-left:450px;
-	background-color:white;
+/* Tablet Style */
+@media only screen and (min-width: 481px) and (max-width:768px) {
+	.SignupForm{
+		padding-top:50px;	
+	}
 }
 
-.signupLabel{
-	font-size:20px;
+/* Mobile Style */
+@media only screen and (max-width:480px) {
+	.signupLabel {
+		text-align: right;
+	}
+
+	.SignupForm{
+		padding-top:50px;	
+	}
+
+	.form {
+		margin: 0px 10px;
+	}
 }

@@ -4,14 +4,73 @@
 	height:100vh;
 }
 
-.LoginForm{
-	margin-top:150px;
-}
-
 .signupRoute{
 	margin-top:10px;
 }
 
-.loginLabel{
-	font-size:20px;
+.loginLabel {
+	text-align:right;
+}
+
+
+/* Desktop Style */
+@media only screen and (min-width: 769px){
+	.LoginForm{
+		margin-top:0px;
+		padding-top:60px;
+	}
+
+	.signupRoute{
+		margin-top:15px;
+	}
+
+
+	.form h1 {
+		padding-bottom:10px;
+	}
+
+	.btn-lg {
+		margin-top:10px;
+	}
+
+}
+
+/* Tablet Style */
+@media only screen and (min-width: 481px) and (max-width:768px) {
+	.LoginForm{
+		margin-top:0px;
+		padding-top:40px;
+	}
+
+	.signupRoute{
+		margin-top:15px;
+	}
+
+	.form h1 {
+		padding-bottom:20px;
+	}
+
+	.btn-lg {
+		margin-top:10px;
+	}
+}
+
+/* Mobile Style */
+@media only screen and (max-width:480px) {
+	.LoginForm{
+		margin-top:0px;
+		padding-top:40px;
+	}
+
+	.signupRoute{
+		margin-top:15px;
+	}
+
+	.form h1 {
+		padding-bottom:20px;
+	}
+
+	.btn-lg {
+		margin-top:10px;
+	}
 }

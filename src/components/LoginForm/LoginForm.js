@@ -87,9 +87,9 @@ class LoginForm extends Component {
 						<Form horizontal className="form">
 							<h1>Login</h1>
 						  <FormGroup controlId="formHorzontalEmail">
-								<Col className="loginLabel" componentClass={ControlLabel} sm={4}>Email:
+								<Col className="loginLabel" componentClass={ControlLabel} sm={4} xs={4}>Email:
 	      				</Col>
-	      				<Col sm={4}>
+	      				<Col sm={4} xs={7}>
 									<FormControl
 										type="email"
 										name="email"
@@ -107,9 +107,9 @@ class LoginForm extends Component {
 							
 							<FormGroup controlId="formHorzontalEmail"
       				>
-								<Col className="loginLabel" componentClass={ControlLabel} sm={4}>Password:
+								<Col className="loginLabel" componentClass={ControlLabel} sm={4} xs={4}>Password:
 		      			</Col>
-		      			<Col sm={4}>
+		      			<Col sm={4} xs={7}>
 									<FormControl
 										type="password"
 										name="password"

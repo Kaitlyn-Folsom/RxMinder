@@ -205,11 +205,10 @@ class SignupForm extends Component {
 				<div className="SignupForm">
 					<Form horizontal className="form">
 						<h1>Signup</h1>
-						<FormGroup controlId="formHorzontalFirstName"
-	        	>
-							<Col className="signupLabel" componentClass={ControlLabel} sm={3}>First Name:
-      				</Col>
-      				<Col sm={6}>
+						<FormGroup controlId="formHorzontalFirstName">
+							<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>First Name:
+      						</Col>
+      						<Col sm={6} xs={7}>
 								<FormControl
 									type="text"
 									name="firstName"
@@ -222,11 +221,10 @@ class SignupForm extends Component {
 								/>
 							</Col>
 						</FormGroup>
-						<FormGroup controlId="formHorzontalEmail"
-	        	>
-							<Col className="signupLabel" componentClass={ControlLabel} sm={3}>Last Name:
-      				</Col>
-      				<Col sm={6}>
+						<FormGroup controlId="formHorzontalEmail">
+							<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>Last Name:
+      						</Col>
+      						<Col sm={6} xs={7}>
 								<FormControl
 									type="text"
 									name="lastName"
@@ -240,11 +238,10 @@ class SignupForm extends Component {
 							</Col>
 						</FormGroup>
 
-						<FormGroup controlId="formHorzontalEmail"
-	        	>
-							<Col className="signupLabel" componentClass={ControlLabel} sm={3}>Email:
-      				</Col>
-      				<Col sm={6}>
+						<FormGroup controlId="formHorzontalEmail">
+							<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>Email:
+      						</Col>
+      						<Col sm={6} xs={7}>
 								<FormControl
 									type="email"
 									name="email"
@@ -258,33 +255,30 @@ class SignupForm extends Component {
 								/>
 							</Col>
 						</FormGroup>
-
 						<FormGroup>
-							<Col className="signupLabel" componentClass={ControlLabel} sm={3}>Phone Number:
-      				</Col>
-      				<Col sm={6}>
+							<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>Phone Number:
+      						</Col>
+      						<Col sm={6} xs={7}>
 								<FormControl
-	              	type="tel"
-	              	pattern="^\d{3}-\d{3}-\d{4}$" required
-	                name="phone"
-	                value={this.state.phone}
-	                onChange={this.handleChange}
-	                placeholder="000 000 0000"
-	              	/>
-	              <WarningBanner 
+									type="tel"
+									pattern="^\d{3}-\d{3}-\d{4}$" required
+									name="phone"
+									value={this.state.phone}
+									onChange={this.handleChange}
+									placeholder="000 000 0000"
+									/>
+								<WarningBanner 
 									warn={this.state.phoneFlag}
 								/>
-              </Col>	
-
-            </FormGroup>
-
+              				</Col>	
+            			</FormGroup>
 						<FormGroup
 							controlId="password"
-	        		validationState={this.passwordLengthValidate()}
-	        	>
-	        		<Col className="signupLabel" componentClass={ControlLabel} sm={3}>Password:
-    					</Col>
-	        		<Col sm={6}>
+	        				validationState={this.passwordLengthValidate()}
+						>
+	        				<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>Password:
+    						</Col>
+	        				<Col sm={6} xs={7}>
 								<FormControl
 									type="password"
 									name="password"
@@ -301,17 +295,15 @@ class SignupForm extends Component {
 									<WarningBanner2
 										warn={this.state.lengthFlag}
 									/>	
-							</Col>
-							 
+							</Col>		 
 						</FormGroup>
-
 						<FormGroup
 							controlId="formBasicText"
-	        		validationState={this.confirmPasswordValidate()}
-	        	>
-	        		<Col className="signupLabel" componentClass={ControlLabel} sm={3}>Confirm Password:
-    					</Col>
-    					<Col sm={6}>
+	        				validationState={this.confirmPasswordValidate()}
+	        			>
+	        				<Col className="signupLabel" componentClass={ControlLabel} sm={3} xs={4}>Confirm Password:
+    						</Col>
+    						<Col sm={6} xs={7}>
 								<FormControl
 									type="password"
 									name="confirmPassword"
