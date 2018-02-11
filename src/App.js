@@ -13,53 +13,64 @@ const DisplayLinks = props => {
 	if (props.loggedIn) {
 		return (
 			<Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
-					   <Navbar.Header>
-					    <Navbar.Brand>
-					      <a href="/" className="brand">RxMinder</a>
-					    </Navbar.Brand>
-					      <Navbar.Toggle />
-					    </Navbar.Header>
-					    <Navbar.Collapse>
-					      <Nav  pullRight className="navBtns">
-					        <NavItem eventKey={1}><Link to="/">
-					          <a>Home</a></Link>
-					         </NavItem>					        
-					         <NavItem eventKey={3}><Link to="/patient">
-					          <a>Patient Profile</a></Link>
-					         </NavItem> 
-									 <NavItem eventKey={2}><Link to="#" onClick={props._logout}>
-					          <a>Logout</a>
-					         </Link>
-					         </NavItem>
-					      </Nav>
-					    </Navbar.Collapse>
-					</Navbar>
+				<Navbar.Header>
+					<Navbar.Brand>
+						<a href="/" className="brand">RxMinder</a>
+					</Navbar.Brand>
+					<Navbar.Toggle />
+				</Navbar.Header>
+				<Navbar.Collapse>
+					<Nav pullRight className="navBtns">
+						<NavItem eventKey={1}>
+							<Link to="/">
+								<a>Home</a>
+							</Link>
+						</NavItem>					        
+						<NavItem eventKey={3}>
+							<Link to="/patient">
+								<a>Patient Profile</a>
+							</Link>
+						</NavItem> 
+						<NavItem eventKey={2}>
+							<Link to="#" onClick={props._logout}>
+								<a>Logout</a>
+							</Link>
+						</NavItem>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		)
 	} else {
-        return (
-          <Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
-					   <Navbar.Header>
-					    <Navbar.Brand>
-					      <a href="/" className="brand">RxMinder</a>
-					    </Navbar.Brand>
-					      <Navbar.Toggle />
-					    </Navbar.Header>
-					    <Navbar.Collapse>
-					      <Nav pullRight className="navBtns">
-					        <NavItem eventKey={1}><Link to="/">
-					          <a>Home</a></Link>
-					         </NavItem>
-					        <NavItem eventKey={2}><Link to="/login">
-					          <a>Login</a></Link>
-					         </NavItem>
-					         <NavItem eventKey={3}><Link to="/signup">
-					          <a>Signup</a></Link>
-					         </NavItem> 
-					      </Nav>
-					    </Navbar.Collapse>
-					</Navbar>
-        )
-    }
+		return (
+			<Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
+				<Navbar.Header>
+					<Navbar.Brand>
+						<a href="/" className="brand">RxMinder</a>
+					</Navbar.Brand>
+					<Navbar.Toggle />
+				</Navbar.Header>
+				<Navbar.Collapse>
+					<Nav pullRight className="navBtns">
+						<NavItem eventKey={1}>
+							<Link to="/">
+								<a>Home</a>
+							</Link>
+							</NavItem>
+						<NavItem eventKey={2}>
+							<Link to="/login">
+								<a>Login</a>
+							</Link>
+						</NavItem>
+						<NavItem eventKey={3}>
+							<Link to="/signup">
+								<a>Signup</a>
+							</Link>
+						</NavItem> 
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
+		)
+	}
 }
 
 class App extends Component {
@@ -73,6 +84,7 @@ class App extends Component {
 		this._logout = this._logout.bind(this)
 		this._login = this._login.bind(this)
 	}
+	
 	componentDidMount() {
 		axios.get('/auth/user').then(response => {
 			console.log(response.data)
@@ -126,18 +138,17 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-						{/* LINKS to our different 'pages' */}
-						<DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} />
-						{/*  ROUTES */}
-						{/* <Route exact path="/" component={Home} /> */}
-						<Route exact path="/" render={() => <Home user={this.state.user} />} 
-						/>
-						<Route exact path="/patient" render={() => <Patient user={this.state.user} />} 
-						/>
-						<Route exact path="/login" render={() => <LoginForm _login={this._login} />}
-						/>
-						<Route exact path="/signup" component={SignupForm} />
-
+				{/* LINKS to our different 'pages' */}
+				<DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} />
+				{/*  ROUTES */}
+				{/* <Route exact path="/" component={Home} /> */}
+				<Route exact path="/" render={() => <Home user={this.state.user} />} 
+				/>
+				<Route exact path="/patient" render={() => <Patient user={this.state.user} />} 
+				/>
+				<Route exact path="/login" render={() => <LoginForm _login={this._login} />}
+				/>
+				<Route exact path="/signup" component={SignupForm} />
 			</div>
 		)
 	}

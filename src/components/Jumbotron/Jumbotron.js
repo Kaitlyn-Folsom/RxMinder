@@ -10,7 +10,7 @@ class Jumbotrons extends React.Component {
   render() {
     return (
     <Jumbotron className="Jumbotron">
-      <h1 className="title">RxMinder</h1>
+      {/* <h1 className="title">RxMinder</h1> */}
   </Jumbotron>
 		);
 	}
