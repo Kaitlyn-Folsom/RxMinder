@@ -10,13 +10,14 @@ class CarouselHome extends React.Component {
         <Col md={12}>
           <Carousel>
             <Carousel.Item>
-              <Image id="carouselImage" alt="caregiver" src="http://18672-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2015/12/BoomerWomanHuggingMother_SA.jpg" />
+              <img 
+              src="../../assets/park-landscape.jpg"
+              className="park"
+               />
             </Carousel.Item>
-            <Carousel.Item>
-              <img id="carouselImage" alt="caregiver" src="https://www.bayshore.ca/wp-content/uploads/2014/06/iStock_000017530512Large.jpg" />
+            <Carousel.Item className="living-room">
             </Carousel.Item>
-            <Carousel.Item>
-              <img id="carouselImage" alt="caregiver" src="https://www.vhl.org/wp-content/uploads/2015/11/Caregiver-center.jpg" />
+            <Carousel.Item className="other">
             </Carousel.Item>
           </Carousel>
         </Col>

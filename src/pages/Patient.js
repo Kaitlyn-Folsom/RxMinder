@@ -1,9 +1,9 @@
 import React from 'react'
 import ReminderForm from '../components/ReminderForm'
 import PatientProfile from '../components/PatientProfile'
-import {Row, Col, Jumbotron} from "react-bootstrap"
+import {Row, Col} from "react-bootstrap"
 import Home from './Home'
-import Header from '../components/Header/Header'
+// import Header from '../components/Header/Header'
 import "./Patient.css"
 import Footer from "../components/Footer/Footer"
 

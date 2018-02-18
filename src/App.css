@@ -1,6 +1,6 @@
 .App{
 	text-align:center;
-	font-family: sofia;
+	font-family: 'Nanum Myeongjo', sofia,  serif;
 	font-size:20px;
 }
 
@@ -9,16 +9,17 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.brand {
+.navbar-brand {
 	font-size: 150%;
 	color: #2d4157 !important;
 }
 
-.navBtns a {
+.nav-item a {
 	color:#2d4157;
 	text-decoration:none;
+	
 }
 
-.navBtns a:hover {
+.nav-item a:hover {
 	color:rgb(109, 151, 149);
 }

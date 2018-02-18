@@ -1,26 +1,93 @@
-h1 {
-  font-weight: 600;
-  font-variant: small-caps;
-}
 
-#text {
-  font-variant: small-caps;
-  color:#337ab7;
-  font-size:25px;
-}
-  
-/* .title{
-  position:relative;
-  right:15%;
-  bottom:10%;
-  display:inline-block;
-} */
-
-.Jumbotron {
-  padding-top:80px;
+.park{
+  margin:0;
+  background-color: #2d4157;
   height:450px;
-  background-image: url("https://patientengagementhit.com/images/site/article_headers/_large/2017-healthcare-stock.jpg");
-  background-repeat: no-repeat;
+  width:100%;
+  background-image: url('../../assets/park-landscape.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.living-room {
+  margin:0;
+  background-color: #2d4157;
+  height:450px;
+  background-image: url('../../assets/living-room.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.other {
+  margin:0;
+  background-color: #2d4157;
+  height:450px;
+  background-image: url("http://prima.cdnds.net/assets/17/27/1600x800/landscape-1499442763-woman-on-laptio.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cellphone {
+  margin:0;
+  height:100%;
+  width:100%;
+  background-image: url('../../assets/cellphone-final.png');
+  background-position: 85% 100%;
+  background-size: 29%;
+  background-repeat: no-repeat;
+}
+
+.caption {
+  background-color:#fff;
+  opacity:0.8;
+  width:400px;
+  height:auto;
+  border-radius: 20px;
+  bottom:30%;
+  padding:5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+  font-size:200%;
+  width:600px;
+  bottom: 65%;
+  font-weight:400;
+}
+
+.caption p {
+  color:#2d4157;
+  font-size:130%;
+}
+
+/*Small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+	.cellphone{
+    background-position: 90% 100%;
+    background-size: 42%;
+	}
+	
+}
+
+/*Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+  .cellphone{
+    background-position: 60% 100%;
+    background-size: 55%;
+  }
+
+}
+
+/* Mobile Style */
+@media only screen and (max-width:480px) {
+  
+  .cellphone{
+    background-position: 70% 100%;
+    background-size: 70%;
+  }
+
 }

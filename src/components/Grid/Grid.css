@@ -7,7 +7,7 @@
 }
 
 h2{
-	height:80px;
+	height:75px;
 	font-size:120%;
 	margin-top:60px;
 }
@@ -40,6 +40,7 @@ h2{
 	-moz-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
+	cursor:pointer;
 }
   
 .flip-container, .front, .back {

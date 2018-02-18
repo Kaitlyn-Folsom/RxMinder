@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import {Jumbotron, Image} from "react-bootstrap";
+import {Jumbotron} from "react-bootstrap";
 import "./PatientProfile.css"
 
 

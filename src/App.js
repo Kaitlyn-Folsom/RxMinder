@@ -3,7 +3,6 @@ import axios from 'axios'
 import { Route, Link } from 'react-router-dom'
 import LoginForm from './components/LoginForm/LoginForm'
 import SignupForm from './components/SignupForm/SignupForm'
-import Header from './components/Header/Header'
 import Home from './pages/Home'
 import './App.css'
 import Patient from './pages/Patient'
@@ -15,23 +14,23 @@ const DisplayLinks = props => {
 			<Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
 				<Navbar.Header>
 					<Navbar.Brand>
-						<a href="/" className="brand">RxMinder</a>
+						<a href="/">RxMinder</a>
 					</Navbar.Brand>
 					<Navbar.Toggle />
 				</Navbar.Header>
 				<Navbar.Collapse>
-					<Nav pullRight className="navBtns">
-						<NavItem eventKey={1}>
+					<Nav pullRight>
+						<NavItem className="nav-item" eventKey={1}>
 							<Link to="/">
-								<a>Home</a>
+								<a>Reminders</a>
 							</Link>
 						</NavItem>					        
-						<NavItem eventKey={3}>
+						<NavItem className="nav-item" eventKey={3}>
 							<Link to="/patient">
 								<a>Patient Profile</a>
 							</Link>
 						</NavItem> 
-						<NavItem eventKey={2}>
+						<NavItem className="nav-item" eventKey={2}>
 							<Link to="#" onClick={props._logout}>
 								<a>Logout</a>
 							</Link>
@@ -39,29 +38,29 @@ const DisplayLinks = props => {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-		)
+		);
 	} else {
 		return (
 			<Navbar collapseOnSelect className="navbar navbar-default navbar-fixed-top">
 				<Navbar.Header>
 					<Navbar.Brand>
-						<a href="/" className="brand">RxMinder</a>
+						<a href="/">RxMinder</a>
 					</Navbar.Brand>
 					<Navbar.Toggle />
 				</Navbar.Header>
 				<Navbar.Collapse>
-					<Nav pullRight className="navBtns">
-						<NavItem eventKey={1}>
+					<Nav pullRight>
+						<NavItem className="nav-item" eventKey={1}>
 							<Link to="/">
 								<a>Home</a>
 							</Link>
 							</NavItem>
-						<NavItem eventKey={2}>
+						<NavItem className="nav-item" eventKey={2}>
 							<Link to="/login">
 								<a>Login</a>
 							</Link>
 						</NavItem>
-						<NavItem eventKey={3}>
+						<NavItem className="nav-item" eventKey={3}>
 							<Link to="/signup">
 								<a>Signup</a>
 							</Link>
@@ -69,7 +68,7 @@ const DisplayLinks = props => {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-		)
+		);
 	}
 }
 
@@ -139,7 +138,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				{/* LINKS to our different 'pages' */}
-				<DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} />
+				<DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} user={this.state.user} />
 				{/*  ROUTES */}
 				{/* <Route exact path="/" component={Home} /> */}
 				<Route exact path="/" render={() => <Home user={this.state.user} />} 

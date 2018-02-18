@@ -1,15 +1,22 @@
 # RxMinder
 
-## A React-based web application that keeps track of a person's medication through texting alerts.
+A React-based web application designed to schedule medication reminders for others. Gives you, as the caretaker or family member, peace of mind while your patient or loved one maintains their independence. Allows you to remain at ease knowing that they are following their regimen.
 
-##### Do you have a family member who is sometimes forgetfull of their medication? Do they get defensive everytime you have to remind them to take their medication? Do they still hold on to their independence?
+## Utilizing the App
 
-##### Then RxMinder is just what you need. It allows you to keep track of if and when your family member has taken their medication each day while they maintain their independence.
+* View the app: [RxMinder](https://ancient-bastion-53743.herokuapp.com/)
 
-![home page](/src/assets/HomePage.png)
+* Sign up and create a profile for a loved one or patient under your care.
+* Schedule reminders, typically medication reminders, for the person you are caring for.
+* They will receive text messages based on the scheduled reminders and will have to respond "YES" when they've completed their reminder. They are allotted 30 minutes to do so.
+* If the patient doesn't respond to the text reminder within 30 minutes, you will receive a text that a reminder has been missed, along with details of the reminder.
+* If the patient does respond within 30 minutes, you will not receive a text.
+* You are able to view your online dashboard to see which reminders were completed and incompleted. Completed reminders are colored green and reminder that were missed are colored red. 
 
-##### Upon signing up, the user is asked to input their patient's or family member's information.
+### Home Page prior to signing up and logging in:
+![Home Page](/src/assets/HomePage.png)
 
+### Upon signing up, the user is asked to input their patient's or family member's information.
 ![Add Patient Form](/src/assets/AddPatient.png)
 
 ##### The caretaker is then brought to the patient profile page where they can begin inputting information for each medication reminder. After a medication is submitted you can see a list of current reminders for the week.
@@ -29,3 +36,31 @@
 ##### When the patient has not responded to the text alert the reminder turns red to show this medication has been missed. The caretaker can then check in on the patient.
 
 ![screenshot1](/src/assets/MissingReminder.png)
+
+## Tech used
+- React.js
+- React Bootstrap
+- HTML/CSS
+- JavaScript/JSX
+- Express.js
+- Node.js
+- Moment.js
+- MongoDB
+- Twilio NPM Package
+- Other NPM packages include: Bcrypt, Passport, Express-Session, Axios
+
+## Built With
+
+* Sublime Text - Text Editor
+* Heroku - Hosting Platform
+
+## Authors
+
+* **Nicole Carvalho** - *Full-Stack Development* - [Nicole Carvalho](https://github.com/nicolelcarvalho)
+* **Andrew Apicello** - *Full-Stack Development* - [Andrew Apicello](https://github.com/andrew-apicello)
+* **Kaitlyn Folsom** - *Front-end development and design/Registration & login with passport/Verification* - [Kaitlyn Folsom](https://github.com/Jewel0106)
+* **Analisa Leote** - *Front-end development/Setting up passport* - [Analisa Leote](https://github.com/aleote)
+
+## Future prospects
+
+* Be able to add multiple family members or patients under one caretaker.
