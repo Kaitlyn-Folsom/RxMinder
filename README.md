@@ -51,11 +51,16 @@ A React-based web application designed to schedule medication reminders for othe
 
 ## Authors
 
-* **Nicole Carvalho** **[Nicole Carvalho](https://github.com/nicolelcarvalho)** - *Full-Stack Development* - [Nicole Carvalho](https://github.com/nicolelcarvalho)
-* **Andrew Apicello** - *Full-Stack Development* - [Andrew Apicello](https://github.com/andrew-apicello)
-* **Kaitlyn Folsom** - *Front-end development and design/Registration & login with passport/Verification* - [Kaitlyn Folsom](https://github.com/Jewel0106)
-* **Analisa Leote** - *Front-end development/Setting up passport* - [Analisa Leote](https://github.com/aleote)
+* **[Nicole Carvalho](https://github.com/nicolelcarvalho)** - *Full-Stack Development*
+* **[Andrew Apicello](https://github.com/andrew-apicello)** - *Full-Stack Development*
+* **[Kaitlyn Folsom](https://github.com/Jewel0106)** - *Front-end development and design/Registration & login with passport/Verification*
+* **[Annalisa Leote](https://github.com/aleote)** - *Front-end development/Setting up passport*
 
 ## Future prospects
 
 * Add multiple family members or patients under one caretaker.
+* Receive reminders when a medication needs to be refilled.
+* Add and view upcoming doctor's appointments.
+* receive reminders for upcoming doctor's appointments.
+* Search and view information for medications.
+* Texts send photos of said medication for more clarity.
