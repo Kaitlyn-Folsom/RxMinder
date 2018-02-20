@@ -2,7 +2,6 @@ import React from 'react';
 import PatientForm from '../components/PatientForm';
 import DisplayReminders from '../components/DisplayReminders';
 import Clock from "../components/Clock";
-// import Carousel from "../components/Carousel";
 import Jumbotrons from "../components/Jumbotron";
 import Footer from "../components/Footer";
 import GridHome from "../components/Grid";
@@ -15,7 +14,6 @@ const Home = props => {
 	// If a user exists and if that user has patients, display the patient's reminders
 	if (props.user && props.user.patients.length > 0) {
 		return (
-
 				<div className="Home reminders-page">
 					<Row className="reminders-page">
 						<Col lg={5}>
@@ -29,7 +27,6 @@ const Home = props => {
 					</Row>
 					<DisplayReminders user = {user}/>
 				</div>
-
 		)
 	} 
 	// Display the add a patient form if the user doesn't have a saved patient
@@ -46,7 +43,6 @@ const Home = props => {
 		return (
 				<div className="Homediv">
 					<Jumbotrons/>
-					{/* <Carousel />		 */}
 					<GridHome />
 					<Footer />
 

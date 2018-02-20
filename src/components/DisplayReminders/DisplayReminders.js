@@ -41,6 +41,8 @@ constructor() {
             break;
         case 6:
             day = "Saturday";
+            break;
+        default:
     }
 
     const patientId = this.props.user.patients[0];

@@ -158,6 +158,7 @@ h2{
 
 	.grid-info {
 		font-size:100%;
-		padding: 40px 10px;
+		padding: 45px 10px;
+		font-weight:bold;
 	}
 }

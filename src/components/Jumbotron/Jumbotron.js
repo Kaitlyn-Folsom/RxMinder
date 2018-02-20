@@ -1,50 +1,41 @@
 import React from 'react';
 import "./Jumbotron.css";
-import CarouselHome from "../Carousel";
-// import { Image } from "react-bootstrap";
-import { Jumbotron, Row, Col, Carousel } from "react-bootstrap"
+import { Carousel, Image } from "react-bootstrap"
 
 class Jumbotrons extends React.Component {
   render() {
     return (
       <Carousel>
-        <Carousel.Item className="park">
-        <div className="cellphone"></div>       
+        <Carousel.Item className="background-images background-1">
+        <div className="cellphone"></div>   
+        <Image src="https://png.pngtree.com/element_pic/00/16/08/0457a339de55f93.jpg"/>    
           <Carousel.Caption className="caption header">
-            <p>Welcome to RxMinder!</p>
+            <h1>Welcome to RxMinder!</h1>
           </Carousel.Caption>    
-            <Carousel.Caption className="caption">
-            <p>The app that tracks a persons medication schedule and gives peave of mind to their family members.</p>
-          </Carousel.Caption>        
+            <Carousel.Caption className="caption c-1">
+            <p>Schedule Medication reminders for others.</p>
+          </Carousel.Caption>   
+          <Carousel.Caption className="caption c-2">
+            <p>Designed to give you peace of mind while your loved ones maintian their independence</p>
+          </Carousel.Caption>      
         </Carousel.Item>
-        <Carousel.Item className="living-room">
-          <div className="cellphone"></div>
-          <Carousel.Caption className="caption">
-            <p>Recieve med reminders at home!</p>
-          </Carousel.Caption>         
+        <Carousel.Item className="background-images background-2">
+          <Carousel.Caption className="caption c-3">
+            <p>Recieve reminders whether at home or on the go!</p>
+          </Carousel.Caption>   
+          <Carousel.Caption className="caption c-4">
+            <p>Never forget to take your medication again</p>
+          </Carousel.Caption>       
         </Carousel.Item>
-        <Carousel.Item className="other">
-          {/* <div className="cellphone"></div> */}
-          <Carousel.Caption className="caption">
-          <p>Have peace of mind knowing you'll be notified of any missed medications.</p>
+        <Carousel.Item className="background-images background-3">
+          <Carousel.Caption className="caption c-5">
+          <p>Rest easy knowing you'll be notified of any missed medications</p>
           </Carousel.Caption>    
-          <Carousel.Caption className="caption">
+          <Carousel.Caption className="caption c-6">
           <p>Let's your loved ones excercise their independence</p>
           </Carousel.Caption>      
-          <Carousel.Caption className="caption">
-          <p>something about less stress.</p>
-          </Carousel.Caption>  
         </Carousel.Item>
       </Carousel>
-
-      // <Jumbotron>
-      //   <div className="cellphone"></div>
-      //     <Col lg={6} sm={6}>
-      //       <p>The app that texts you medication reminders</p>
-      //     </Col>
-      //     <Col lg={6} sm={6}>
-      //     </Col>
-      // </Jumbotron>
 		);
 	}
 }

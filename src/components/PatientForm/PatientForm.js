@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button, Form, FormGroup, Col, ControlLabel, FormControl, Checkbox } from "react-bootstrap"
+import { Button, Form, FormGroup, Col, ControlLabel, FormControl} from "react-bootstrap"
 import axios from 'axios';
 import {WarningBanner} from "../Alerts"
 import { Redirect } from 'react-router-dom';
-import MilitaryTime from '../../Utils/MilitaryTime.js';
+// import MilitaryTime from '../../Utils/MilitaryTime.js';
 import "./PatientForm.css"
 
 class PatientForm extends React.Component {

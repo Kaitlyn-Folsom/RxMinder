@@ -126,9 +126,9 @@ class LoginForm extends Component {
 									/>
 								</Col>
 							</FormGroup>
-							<Button onClick={this.handleSubmit} className="btn-lg">Login</Button>
+							<Button onClick={this.handleSubmit} className="btn-lg login-signup-btn">Login</Button>
 						</Form>
-						<h4 className="signupRoute">Need an account? <Link to="/signup">Sign up</Link></h4>
+						<h4 className="signupRoute">Need an account? <Link to="/signup" className="login-link">Sign up</Link></h4>
 					</div>
 					</Col>
 				</Row>

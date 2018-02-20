@@ -4,12 +4,38 @@
 	height:100vh;
 }
 
+.form h1 {
+	font-size:50px;
+}
+
 .signupRoute{
 	margin-top:10px;
 }
 
 .loginLabel {
 	text-align:right;
+}
+
+.login-signup-btn {
+	font-weight:bold;
+	width:8%;
+	font-size:15px;
+}
+
+.login-signup-btn:hover {
+	background-color:rgb(109, 151, 149);
+	border-color: rgb(109, 151, 149);
+	width:8%;
+	font-size:15px;
+}
+
+.login-link {
+	color:rgb(109, 151, 149);
+}
+
+.login-link:hover {
+	text-decoration: none;
+	color:#fff;
 }
 
 

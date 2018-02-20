@@ -26,6 +26,8 @@ class Clock extends React.Component {
             break;
         case 6:
             day = "Saturday";
+            break;
+        default:
     }
 
     super(props);

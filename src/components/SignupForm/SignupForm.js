@@ -321,7 +321,7 @@ class SignupForm extends Component {
 									/>	
 							</Col>
 						</FormGroup>
-						<Button onClick={this.handleSubmit} className="btn-lg">Sign up</Button>
+						<Button onClick={this.handleSubmit} className="btn-lg login-signup-btn">Sign up</Button>
 						<WarningBanner4 
 									warn={this.state.userFlag}
 								/>

@@ -1,33 +1,24 @@
-
-.park{
+.background-images {
   margin:0;
   background-color: #2d4157;
   height:450px;
-  width:100%;
-  background-image: url('../../assets/park-landscape.jpg');
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.living-room {
-  margin:0;
-  background-color: #2d4157;
-  height:450px;
-  background-image: url('../../assets/living-room.jpg');
+.background-1{
+  background-image: url('https://img1.etsystatic.com/000/0/6352506/il_fullxfull.320241369.jpg');
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.other {
-  margin:0;
-  background-color: #2d4157;
-  height:450px;
+.background-2 {
+  background-image: url('https://positively.com/files/dogwalkroutine.jpg');
+  background-position: bottom;
+}
+
+.background-3 {
   background-image: url("http://prima.cdnds.net/assets/17/27/1600x800/landscape-1499442763-woman-on-laptio.jpg");
   background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .cellphone {
@@ -35,40 +26,134 @@
   height:100%;
   width:100%;
   background-image: url('../../assets/cellphone-final.png');
-  background-position: 85% 100%;
+  background-position: 95% 100%;
   background-size: 29%;
   background-repeat: no-repeat;
 }
 
 .caption {
   background-color:#fff;
-  opacity:0.8;
+  opacity:0.9;
   width:400px;
   height:auto;
   border-radius: 20px;
-  bottom:30%;
   padding:5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header {
-  font-size:200%;
   width:600px;
-  bottom: 65%;
+  bottom: 70%;
+  left:17%;
   font-weight:400;
+}
+
+.header h1{
+  font-size:270%;
+  color:#2d4157;
 }
 
 .caption p {
   color:#2d4157;
-  font-size:130%;
+  font-size:120%;
 }
+
+.c-1 {
+  bottom:37%;
+  left:7%;
+}
+
+.c-2 {
+  bottom:12%;
+  left:38%;
+}
+
+.c-3 {
+  bottom:65%;
+  left:8%;
+}
+
+.c-4 {
+  bottom:23%;
+  left:20%;
+}
+
+.c-5 {
+  bottom:65%;
+  left:5%;
+}
+
+.c-6 {
+  bottom:15%;
+  left:18%;
+}
+
 
 /*Small tablets to big tablets: from 768px to 1023px*/
 @media only screen and (max-width:1023px){
 	.cellphone{
     background-position: 90% 100%;
     background-size: 42%;
-	}
+  }
+
+  .background-2 {
+    background-image: url('https://positively.com/files/dogwalkroutine.jpg');
+    background-position: right;
+  }
+
+  .caption {
+    width:250px;
+    padding:8px 5px;
+  }
+
+  .header {
+    width:440px;
+    bottom: 80%;
+    left:10%;
+  }
+  
+  .header h1{
+    font-size:200%;
+  }
+
+  .caption p {
+    font-size:90%;
+  }
+
+  .c-1 {
+    bottom:53%;
+    width:270px;
+    left:20%;
+  }
+  
+  .c-2 {
+    bottom:20%;
+    left:8%;
+    width:300px;
+  }
+  
+  .c-3 {
+    bottom:70%;
+    left:55%;
+    width:220px;
+  }
+  
+  .c-4 {
+    bottom:25%;
+    left:10%;
+  }
+
+  .c-5 {
+    bottom:75%;
+    left:40%;
+    width:280px;
+  }
+  
+  .c-6 {
+    bottom:54%;
+    left:8%;
+    width:240px;
+  }
 	
 }
 
@@ -76,18 +161,136 @@
 @media only screen and (max-width:767px){
 
   .cellphone{
-    background-position: 60% 100%;
+    background-position: 25% 100%;
     background-size: 55%;
+  }
+
+  .background-2 {
+    background-image: url('https://positively.com/files/dogwalkroutine.jpg');
+    background-position: right;
+  }
+
+  .caption {
+    width:200px;
+    padding:8px 5px;
+  }
+
+  .header {
+    width:330px;
+    bottom: 80%;
+    left:20%;
+  }
+  
+  .header h1{
+    font-size:150%;
+  }
+
+  .caption p {
+    font-size:90%;
+  }
+
+  .c-1 {
+    bottom:55%;
+    width:220px;
+    left:50%;
+  }
+  
+  .c-2 {
+    bottom:20%;
+    left:58%;
+    width:220px;
+  }
+  
+  .c-3 {
+    bottom:70%;
+    left:55%;
+    width:220px;
+  }
+  
+  .c-4 {
+    bottom:25%;
+    left:10%;
+  }
+
+  .c-5 {
+    bottom:75%;
+    left:40%;
+    width:280px;
+  }
+  
+  .c-6 {
+    bottom:54%;
+    left:8%;
+    width:240px;
   }
 
 }
 
 /* Mobile Style */
 @media only screen and (max-width:480px) {
-  
+  .background-2 {
+    background-image: url('https://positively.com/files/dogwalkroutine.jpg');
+    background-position: right;
+  }
+
   .cellphone{
-    background-position: 70% 100%;
-    background-size: 70%;
+    background-position: 25% 100%;
+    background-size: 50%;
+  }
+  
+  .caption {
+    width:200px;
+    padding:8px 5px;
+  }
+
+  .header {
+    width:330px;
+    bottom: 80%;
+    left:10%;
+  }
+  
+  .header h1{
+    font-size:150%;
+    color:#2d4157;
+  }
+
+  .caption p {
+    color:#2d4157;
+    font-size:70%;
+  }
+
+  .c-1 {
+    bottom:55%;
+    width:220px;
+    left:7%;
+  }
+  
+  .c-2 {
+    bottom:25%;
+    left:48%;
+    width:190px;
+  }
+  
+  .c-3 {
+    bottom:75%;
+    left:47%;
+  }
+  
+  .c-4 {
+    bottom:50%;
+    left:35%;
+  }
+
+  .c-5 {
+    bottom:80%;
+    left:40%;
+    width:220px;
+  }
+  
+  .c-6 {
+    bottom:60%;
+    left:8%;
+    width:200px;
   }
 
 }

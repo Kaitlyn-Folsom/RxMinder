@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Well, Row, Col, ControlLabel, FormControl, Form, Checkbox, Panel } from "react-bootstrap"
+import { Button, Row, Col, ControlLabel, FormControl, Form, Checkbox, Panel } from "react-bootstrap"
 import axios from 'axios';
 import "./ReminderForm.css"
 import MilitaryTime from '../../Utils/MilitaryTime.js';
@@ -114,13 +114,13 @@ constructor() {
         hours = parseInt(militaryTime.split(":")[0])
         minutes = parseInt(militaryTime.split(":")[1])
 
-      if (minutes == 0){
+      if (minutes === 0){
           minutes = minutes + 30
       } else {
           hours = hours + 1
           minutes = "00"
 
-        if (hours == 24){
+        if (hours === 24){
               hours = 0;
         }
       }

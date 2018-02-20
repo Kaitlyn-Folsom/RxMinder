@@ -22,17 +22,17 @@ const DisplayLinks = props => {
 					<Nav pullRight>
 						<NavItem className="nav-item" eventKey={1}>
 							<Link to="/">
-								<a>Reminders</a>
+								Reminders
 							</Link>
 						</NavItem>					        
 						<NavItem className="nav-item" eventKey={3}>
 							<Link to="/patient">
-								<a>Patient Profile</a>
+								Patient Profile
 							</Link>
 						</NavItem> 
 						<NavItem className="nav-item" eventKey={2}>
 							<Link to="#" onClick={props._logout}>
-								<a>Logout</a>
+								Logout
 							</Link>
 						</NavItem>
 					</Nav>
@@ -49,20 +49,20 @@ const DisplayLinks = props => {
 					<Navbar.Toggle />
 				</Navbar.Header>
 				<Navbar.Collapse>
-					<Nav pullRight>
+					<Nav pullRight>					
 						<NavItem className="nav-item" eventKey={1}>
 							<Link to="/">
-								<a>Home</a>
+								Home
 							</Link>
 							</NavItem>
 						<NavItem className="nav-item" eventKey={2}>
 							<Link to="/login">
-								<a>Login</a>
+								Login
 							</Link>
 						</NavItem>
 						<NavItem className="nav-item" eventKey={3}>
 							<Link to="/signup">
-								<a>Signup</a>
+								Signup
 							</Link>
 						</NavItem> 
 					</Nav>

@@ -1,6 +1,6 @@
   import React from 'react';
 // import ReactDOM from 'react-dom'
-import { Grid, Row, Col, Image } from 'react-bootstrap'
+import { Grid, Row, Col } from 'react-bootstrap'
 import "./Grid.css";
 
 class GridHome extends React.Component {
