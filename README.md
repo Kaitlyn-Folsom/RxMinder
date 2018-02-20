@@ -14,7 +14,7 @@ A React-based web application designed to schedule medication reminders for othe
 * You are able to view your online dashboard to see which reminders were completed and incompleted. Completed reminders are colored green and reminder that were missed are colored red. 
 
 ### Home page:
-![Home Page](/src/assets/HomePage.png)
+![Home Page](/src/assets/home-page.png)
 
 ### Add Patient Form
 ![Add Patient Form](/src/assets/AddPatient.png)
