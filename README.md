@@ -4,7 +4,7 @@ A React-based web application designed to schedule medication reminders for othe
 
 ## How it works
 
-* View the app: [RxMinder](https://ancient-bastion-53743.herokuapp.com/)
+* View the app: [RxMinder](https://rx-minder.herokuapp.com/)
 
 * Sign up and create a profile for a loved one or patient under your care.
 * Schedule reminders, typically medication reminders, for the person you are caring for.
